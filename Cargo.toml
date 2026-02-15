@@ -1,6 +1,13 @@
-[package]
-name = "corelink"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+members = [
+    "crates/corelink_app", 
+    "crates/corelink_config", 
+    "crates/corelink_domain", 
+    "crates/corelink_grpc", 
+    "crates/corelink_observability", 
+    "crates/corelink_plc", 
+    "crates/corelink_state", 
+    "crates/corelink_utils",
+]
 
-[dependencies]
+resolver = "2"

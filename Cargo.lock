@@ -3,5 +3,33 @@
 version = 4
 
 [[package]]
-name = "corelink"
+name = "corelink_app"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_config"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_domain"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_grpc"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_observability"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_plc"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_state"
+version = "0.1.0"
+
+[[package]]
+name = "corelink_utils"
 version = "0.1.0"
